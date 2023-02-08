@@ -58,6 +58,7 @@
     <module>apt-test-generator</module>
     <module>benchmark</module>
     <module>annotation-error-decoder</module>
+    <module>jaxb-jakarta</module>
   </modules>
 
   <properties>
