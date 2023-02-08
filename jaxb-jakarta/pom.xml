@@ -15,43 +15,43 @@
 
 -->
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-    <modelVersion>4.0.0</modelVersion>
+  <modelVersion>4.0.0</modelVersion>
 
-    <parent>
-        <groupId>io.github.openfeign</groupId>
-        <artifactId>parent</artifactId>
-        <version>12.2-SNAPSHOT</version>
-    </parent>
+  <parent>
+      <groupId>io.github.openfeign</groupId>
+      <artifactId>parent</artifactId>
+      <version>12.2-SNAPSHOT</version>
+  </parent>
 
-    <artifactId>feign-jaxb-jakarta</artifactId>
-    <name>Feign JAXB-jakarta</name>
-    <description>Feign JAXB-jakarta</description>
+  <artifactId>feign-jaxb-jakarta</artifactId>
+  <name>Feign JAXB-jakarta</name>
+  <description>Feign JAXB-jakarta</description>
 
-    <properties>
-        <main.basedir>${project.basedir}/..</main.basedir>
-    </properties>
+  <properties>
+      <main.basedir>${project.basedir}/..</main.basedir>
+  </properties>
 
-    <dependencies>
-        <dependency>
-            <groupId>${project.groupId}</groupId>
-            <artifactId>feign-core</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>${project.groupId}</groupId>
-            <artifactId>feign-core</artifactId>
-            <type>test-jar</type>
-            <scope>test</scope>
-        </dependency>
-        <dependency>
-            <groupId>jakarta.xml.bind</groupId>
-            <artifactId>jakarta.xml.bind-api</artifactId>
-            <version>4.0.0</version>
-        </dependency>
-        <dependency>
-            <groupId>org.glassfish.jaxb</groupId>
-            <artifactId>jaxb-runtime</artifactId>
-            <version>4.0.1</version>
-            <scope>test</scope>
-        </dependency>
-    </dependencies>
+  <dependencies>
+      <dependency>
+          <groupId>${project.groupId}</groupId>
+          <artifactId>feign-core</artifactId>
+      </dependency>
+      <dependency>
+          <groupId>${project.groupId}</groupId>
+          <artifactId>feign-core</artifactId>
+          <type>test-jar</type>
+          <scope>test</scope>
+      </dependency>
+      <dependency>
+          <groupId>jakarta.xml.bind</groupId>
+          <artifactId>jakarta.xml.bind-api</artifactId>
+          <version>4.0.0</version>
+      </dependency>
+      <dependency>
+          <groupId>org.glassfish.jaxb</groupId>
+          <artifactId>jaxb-runtime</artifactId>
+          <version>4.0.1</version>
+          <scope>test</scope>
+      </dependency>
+  </dependencies>
 </project>
